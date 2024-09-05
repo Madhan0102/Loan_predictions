@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Load the trained model
-model = joblib.load(r'C:\Users\conne\OneDrive\Documents\GitHub\Machine_Learning_Project\Loan prediction\loan_eligibility_model.pkl')
+model = joblib.load(r'loan_eligibility_model.pkl')
 
 # Define the input fields for the user
 st.title("Loan Eligibility Prediction")
